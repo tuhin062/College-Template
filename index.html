@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Official Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!--font-awesome cdn starts here-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font-awesome cdn ends here-->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="margin: 0; padding: 0; font-family: 'Poppins', sans-serif;">
+
+    <!-- Sleek bar for Admission, Academic, and Brochure -->
+    <div style="background-color: #e1eaee; color: black; padding: 2px 20px; display: flex; justify-content: flex-end; align-items: center; height: 30px; font-size: small;">
+        <!-- Right content -->
+        <div style="display: flex; align-items: center; margin-left: auto;">
+            <!-- College admission -->
+            <span style="margin-right: 5px;color: #0E2C65;font-weight: bold;">Admission</span>
+            <!-- Contact number -->
+            <span style="margin-right: 12px;">+91 7278936250</span>
+        </div>
+        <!-- Partition -->
+        <div style="border-right: 1px solid #ccc; margin-right: 10px; height: 100%;"></div>
+        <!-- Right content -->
+        <div style="display: flex; align-items: center; margin-right: 10px;">
+            <!-- Academics -->
+            <span style="margin-right:5px;color: #0E2C65;font-weight: bold;">Academics</span>
+            <!-- Contact number -->
+            <span>+91 7278936250</span>
+        </div>
+        <!-- Partition -->
+        <div style="border-right: 1px solid #ccc; margin-right: 10px; height: 100%;"></div>
+        <!-- Button -->
+        <button style="color: #0E2C65; padding: 5px; border: none; border-radius: 5px; cursor: pointer; text-transform: ; font-weight: bold;">Brochure</button>
+    </div>
+    <!-- Sleek bar end for Admission, Academic, and Brochure -->
+    
+    <!-- Header Section -->
+    <div style="background-color: #0E2C65; color: white; padding: 12px 0;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" style="text-align: right;"> <!-- Right aligning for college logo -->
+                    <img src="https://png.pngtree.com/png-clipart/20230403/original/pngtree-education-and-college-logo-design-template-png-image_9022986.png" alt="College Logo" style="max-width: 28%; height: auto;">
+                </div>
+                <div class="col-md-6 text-left"> <!-- Left aligning for college name -->
+                    <h2 style="margin: 0;font-weight: bold;">SOMETHING</h2>
+                    <h2 style="margin: 0;font-weight: bold;">UNIVERSITY</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Section end -->
+
+    <!--Navbar Section -->
+    <nav class="navbar navbar-expand-lg" style="background-color: #e1eaee;">
+    <div class="container" >
+
+        <!-- Toggle button for mobile view -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Dropdown menus -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav mr-auto" style="font-size: small; font-weight: bold;">
+                <ul class="navbar-nav ml-auto" style="font-size: small; font-weight: bold;">
+                    <!-- Home menu (as a button) -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: #0E2C65;">Home</a>
+                    </li>
+            
+                    <!-- About Us menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            About Us
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+            
+                    <!-- Academics menu -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            Academics
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+            
+                    <!-- Admissions -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            Admission
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+                    <!-- Research -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            Research
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+                    <!-- Inovations -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            Inovations
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+                    <!--Students-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: #0E2C65;">Students</a>
+                    </li>
+                    <!--Placements-->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #0E2C65;">
+                            Placements
+                        </a>
+                        <!-- Dropdown menu items -->
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown3">
+                            <!-- Dropdown items here if any -->
+                        </div>
+                    </li>
+                    <!--Library-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: #0E2C65;">Library</a>
+                    </li>
+                    </ul>
+            </ul>
+        </div>
+
+        <!-- Apply Now button -->
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link btn btn-primary" href="#" style="color: #0E2C65; background-color: #FAB91D; border: none;border-radius: 10px;padding: 4px 15px;font-weight: bold;">Apply Now</a>
+            </li>
+        </ul>
+
+    </div>
+    </nav>
+    <!--Navbar Section ends-->
+
+    <!--front page slider-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="slider-3-1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light" style="opacity: 0.9; text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.9);">Something University</h1>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="KLE-BCA-Nipani-Sliderr-04-1410x600.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="text-light" style="opacity:; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);">Something University</h1>
+                </div>
+            </div>
+            <!-- Add more carousel items with images and captions -->
+        </div>
+    </div>
+    <!--front page slider ends-->
+
+    <!--4th segment-->
+    <div style="display: flex; justify-content: center; background-color: #d3dfe5;">
+        <div style=" text-align: left; padding: 20px;">
+            <h6 style="font-weight: bold; color: #0e2c65; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Welcome to Our Official Website</h6>
+<h1 style="font-weight: bolder; text-transform: uppercase; color: #0e2c65; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">OUR LEADING CAMPUSES</h1>
+
+        </div>
+    </div>
+    <!--4th segment end here-->
+
+    <!-- 5th section: Campuses -->
+    <div style="background-color: #0e2c65;height: 5px;"></div>
+    <div class="my-5 mt-0" style="background-color: #d3dfe5; padding: 0 70px;">
+    <div class="row">
+        <!-- Campus 1 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="" style="height: 5px; background-color: #007bff;"></div>
+                <div class="card-header text-white" style="background-color: #0e2c65; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                    <h6 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">West Bengal</h6>
+                    <h4 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Central Campus</h4>
+                </div>
+                <img src="71606800591049.webp" class="card-img-top" alt="Campus 1">
+                <div class="card-body bg-light">
+                    <p class="card-text">123 Campus Street, City, Country</p>
+                    <p class="card-text text-primary">Contact: +1 123 456 7890</p>
+                </div>
+            </div>
+        </div>
+        <!-- Campus 2 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="" style="height: 5px; background-color: #007bff;"></div>
+                <div class="card-header text-white" style="background-color: #0e2c65; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                    <h6 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Bangalore</h6>
+                    <h4 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Kangeri Campus</h4>
+                </div>
+                <img src="download.jpg" class="card-img-top" alt="Campus 2">
+                <div class="card-body bg-light">
+                    <p class="card-text">456 Campus Avenue, City, Country</p>
+                    <p class="card-text text-primary">Contact: +1 234 567 8901</p>
+                </div>
+            </div>
+        </div>
+        <!-- Campus 3 -->
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <div class="" style="height: 5px; background-color: #007bff;"></div>
+                <div class="card-header text-white" style="background-color: #0e2c65; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+                    <h6 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Delhi NCR</h6>
+                    <h4 class="mb-0" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Yashwanthpur Campus</h4>
+                </div>
+                <img src="birla.jpg" class="card-img-top" alt="Campus 3">
+                <div class="card-body bg-light">
+                    <p class="card-text">789 Campus Road, City, Country</p>
+                    <p class="card-text text-primary">Contact: +1 345 678 9012</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add more campuses as needed -->
+    </div>
+    </div>
+<!-- 5th section: Campuses ends here -->
+
+
+    <!-- 6th section: About the college -->
+    <div class="container my-5 d-flex justify-content-center align-items-center" style="margin-top: 5px;margin-bottom: 5px;">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="mb-4" style="color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">About Our College</h1>
+                <p style="color: rgb(110, 110, 110);">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eleifend id nisi ut fermentum. Proin nec enim non mauris mattis interdum. Vestibulum tincidunt posuere metus eget rutrum. Aliquam erat volutpat. Nulla facilisi. Integer ullamcorper vestibulum purus non suscipit. Sed venenatis ultrices nunc, a laoreet nulla cursus vel. Fusce dapibus, magna vel consectetur dapibus, nisl magna convallis metus, ut fermentum ex magna ac leo.
+                    Nulla facilisi. Curabitur vestibulum convallis augue, vitae finibus nulla faucibus sit amet. Proin ut lacus non velit euismod convallis. Integer et dolor et sem feugiat volutpat. Duis quis viverra purus. Sed nec feugiat leo. Maecenas finibus sem sit amet sapien tempor, id tincidunt metus volutpat. Fusce tincidunt sollicitudin tortor sed viverra. Pellentesque eleifend ligula nulla, in vehicula est volutpat vitae.
+                    <br><br>
+                    Suspendisse potenti. Nam fermentum volutpat orci, nec suscipit lectus luctus a. Duis sit amet est nec magna fermentum tincidunt. Phasellus pretium pharetra tellus, in gravida ligula tempus vitae. Nullam quis tortor vel libero scelerisque luctus. Mauris accumsan, ex vel suscipit commodo, mauris quam convallis purus, eget eleifend ipsum orci non lorem. Vestibulum ullamcorper, neque sed auctor convallis, orci risus dignissim metus, et consequat mauris velit non nisi.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 6th section: About the college ends here -->
+
+    <!-- 7th segment -->
+<div style="display: flex; justify-content: center; background-color: #d3dfe5;">
+    <div style=" text-align: left; padding: 1px;">
+        <!-- Content of the 7th segment -->
+    </div>
+</div>
+<!-- 7th segment end here -->
+
+<!-- 8th section: Box with Text -->
+<div style="position: relative;">
+    <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 2;">
+        <div style="background-color: #0e2c65; color: white; padding: 10px;">
+            <h5 style="margin: 0;">9 Schools | 55+ Programmes</h5>
+        </div>
+    </div>
+</div>
+<!-- 8th section end -->
+
+<!-- 9th section: Add your elements here -->
+<div style="display: flex; justify-content: center; background-color: #d3dfe5; padding: 50px 0;">
+    <div class="row" style="margin: 0;">
+
+        <div class="col-md-3" style="padding:0px;">
+            <div class="square d-flex flex-column justify-content-between" style="height: 200px;width:280px;background-color: #0e2c65; padding: 20px; margin: 0;">
+                <div>
+                    <h4 style="color: white; margin: 10px;">Postgraduate</h4>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none; color: white; margin: 10px;">Know More <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3" style="padding: 0;">
+            <div class="square d-flex flex-column justify-content-between" style="height: 200px;width:280px;background-color: #29547a; padding: 20px; margin: 0;">
+                <div>
+                    <h4 style="color: white; margin: 10px;">Executive Education</h4>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none; color: white; margin: 10px;">Know More <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3" style="padding: 0;">
+            <div class="square d-flex flex-column justify-content-between" style="height: 200px;width:280px;background-color: #427090; padding: 20px; margin: 0;">
+                <div>
+                    <h4 style="color: white; margin: 10px;">Doctoral</h4>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none; color: white; margin: 10px;">Know More <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3" style="padding: 0;">
+            <div class="square d-flex flex-column justify-content-between" style="height: 200px;width:280px; background-color: #5b8ca5; padding: 20px; margin: 0;">
+                <div>
+                    <h4 style="color: white; margin: 10px;">Entrepreneurship</h4>
+                </div>
+                <div>
+                    <a href="#" style="text-decoration: none; color: white; margin: 10px;">Know More <i class="fa-solid fa-circle-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div class="container" style="padding-top: 50px;">
+    <div class="row justify-content-center">
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #5B8CA5; padding: 50px 40px;">
+                <h4 style="font-weight: bold;color: #f5f5f5;">B.A. (Honours)</h4>
+                <br><br>
+                <p><a href="" style="color: #f5f5f5; text-decoration: none;">Bengali |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">English |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">History |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #f5f5f5;padding: 50px 35px;">
+                <h4 style="font-weight: bold;color: #29547A;">Box 2</h4>
+                <br><br>
+                <p><a href="" style="color: #29547A;font-weight: bold; text-decoration: none;">Bengali |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">English |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">History |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0px;">
+            <div class="square" style="background-color: #5B8CA5; padding: 50px 40px;">
+                <h4 style="font-weight: bold;color: #f5f5f5;">B.A. (Honours)</h4>
+                <br><br>
+                <p><a href="" style="color: #f5f5f5; text-decoration: none;">Bengali |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">English |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">History |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">Philosophy</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #f5f5f5;padding: 50px 35px;">
+                <h4 style="font-weight: bold;color: #29547A;">Box 2</h4>
+                <br><br>
+                <p><a href="" style="color: #29547A;font-weight: bold; text-decoration: none;">Bengali |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">English |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">History |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #5B8CA5; padding: 50px 40px;">
+                <h4 style="font-weight: bold;color: #f5f5f5;">B.A. (Honours)</h4>
+                <br><br>
+                <p><a href="" style="color: #f5f5f5; text-decoration: none;">Bengali |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">English |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">History |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #f5f5f5;padding: 50px 35px;">
+                <h4 style="font-weight: bold;color: #29547A;">Box 2</h4>
+                <br><br>
+                <p><a href="" style="color: #29547A;font-weight: bold; text-decoration: none;">Bengali |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">English |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">History |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">Philosophy</a></p>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #5B8CA5; padding: 50px 40px;">
+                <h4 style="font-weight: bold;color: #f5f5f5;">B.A. (Honours)</h4>
+                <br><br>
+                <p><a href="" style="color: #f5f5f5; text-decoration: none;">Bengali |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">English |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">History |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #f5f5f5;padding: 50px 35px;">
+                <h4 style="font-weight: bold;color: #29547A;">Box 2</h4>
+                <br><br>
+                <p><a href="" style="color: #29547A;font-weight: bold; text-decoration: none;">Bengali |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">English |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">History |</a> <a href="" style="color: #29547A;text-decoration: none;font-weight: bold;">Philosophy</a></p>
+            </div>
+        </div>
+        <div class="col-md-4" style="padding: 0;">
+            <div class="square" style="background-color: #5B8CA5; padding: 50px 40px;">
+                <h4 style="font-weight: bold;color: #f5f5f5;">B.A. (Honours)</h4>
+                <br><br>
+                <p><a href="" style="color: #f5f5f5; text-decoration: none;">Bengali |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">English |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">History |</a> <a href="" style="color: #f5f5f5;text-decoration: none;">Philosophy</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 9th section end -->
+
+<!-- 10th section Life at campus-->
+<div class="container-fluid" style="padding: 50px; background-color: #D3DFE5;">
+    <h1 style="padding-left: 50px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Life In Campus</h1>
+    <div style="display: flex; justify-content: space-around; margin-top: 45px;">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="istockphoto-539444770-612x612.jpg" alt="Campus Life" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <p style="text-align: center; margin-top: 10px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Campus Life</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="https://www.rfyouthsports.com//static-resources/waf-images/content/71/4d/33/16-9/gv45KvIZHs.JPG" alt="Sports & Game" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <p style="text-align: center; margin-top: 10px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Sports & Game</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="1B5A9056-1-compressed-1024x683.jpg" alt="Extra Curricular Activities" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <p style="text-align: center; margin-top: 10px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Extra Curricular Activities</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="istockphoto-481209467-612x612.jpg" alt="Library" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <p style="text-align: center; margin-top: 10px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Library</p>
+        </div>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <img src="images.jpg" alt="Hostel & Canteen" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover; box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">
+            <p style="text-align: center; margin-top: 10px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">Hostel & Canteen</p>
+        </div>
+    </div>
+</div>
+<!-- 10th section Life at campus-->
+<!--11 th section-->
+<div class="container">
+    <!-- Section with a centered box and text -->
+    <div class="row justify-content-center">
+        <div class="col-md-6" style="padding: 0;">
+            <div class="square text-center" style="background-color:; padding-top: 50px; color: white;">
+                <div style="background-color: #0e2c65; color: white; padding: 10px;">
+                    <h5 style="margin: 0;">A Coveted Campus for Recruiters</h5>
+                </div>
+                <p style="font-size: small;color: #0e2c65;font-weight: bold;">An esteemed destination favoured by recruiters seeking top talent</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Company logo carousel (have external css in style.css) -->
+    <div class="slider" style="height: 100px; margin: auto; overflow: hidden; position: relative; width: auto;">
+        <div class="slide-track" style="animation: scroll 40s linear infinite; display: flex; width: calc(250px * 14);">
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100" width="250" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100" width="250" alt="" />
+          </div>
+        </div>
+    </div>      
+    <!-- Company logo carousel end here (have external css in style.css) --> 
+</div>
+    <!--11th section ends here-->
+
+<!--12th section-->
+<section style="background-color: #D3DFE5; text-align: center; padding: 50px; box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);">
+    <p style="font-size: 18px; margin-bottom: 30px; color: #002147;">Our students make us proud. Something University couldn't have achieved this extraordinary success without its intensive pre-placement training. 98% students placed in 2022 & 23 respectively. ₹36 LPA highest salary offered.</p>
+    <div class="card-container" style="display: flex; justify-content: space-around;">
+        <!-- Card 1 -->
+        <div class="card" style="background-color: #D3DFDB; width: 250px; border-radius: 10px; padding: 10px; text-align: center; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLXkJa9ANdiT0Em5CKHt8EN-kDnAXawBvbH-vaxdyFRQ&s" alt="Candidate 1" style="width: 225px; height: 220px; border-radius: 5%; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="margin: 10px 0;">Suman</p>
+            <p style="margin: 0;">[MCA]</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Cargill_logo.svg/1280px-Cargill_logo.svg.png" alt="Company 1 Logo" style="width: 230px; height: 50px; margin-top: 10px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="text-transform: uppercase; font-weight: bold; margin: 10px 0; color: #002147;font-size: larger;">CTC ₹24 LPA</p>
+        </div>
+        <!-- Card 2 -->
+        <div class="card" style="background-color: #f5f5f5; width: 250px; border-radius: 10px; padding: 10px; text-align: center; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <img src="https://doms.iitm.ac.in/images/MBA2023/ms21a023.jpg" alt="Candidate 2" style="width: 225px; height: 220px; border-radius: 5%; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="margin: 10px 0;">Arnab</p>
+            <p style="margin: 0;">[BSc(H) CS]</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTRSH2TlAoxpfp1LcHpYw8SClMFIY1eldu6MUkNDvNYg&s" alt="Company 2 Logo" style="width: 230px; height: 65px; margin-top: 10px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="text-transform: uppercase; font-weight: bold; margin: 10px 0; color: #002147;font-size: larger;">CTC ₹16 LPA</p>
+        </div>
+        <!-- Card 3 -->
+        <div class="card" style="background-color: #D3DFDB; width: 250px; border-radius: 10px; padding: 10px; text-align: center; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc5SE-rk__MxO94qDlydz2tQbKrarSHjtFPAbujePtqA&s" alt="Candidate 3" style="width: 225px; height: 220px; border-radius: 5%; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="margin: 10px 0;">Manish</p>
+            <p style="margin: 0;">[Cyber Security]</p>
+            <img src="https://1000logos.net/wp-content/uploads/2020/05/AMD-Logo.png" alt="Company 3 Logo" style="width: 220px; height: 50px; margin-top: 10px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="text-transform: uppercase; font-weight: bold; margin: 10px 0; color: #002147;font-size: larger;">CTC ₹9.50 LPA</p>
+        </div>
+        <!-- Card 4 -->
+        <div class="card" style="background-color: #f5f5f5; width: 250px; border-radius: 10px; padding: 10px; text-align: center; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnH57b7CrN6Z1vuv72Y1YJV9z1XIW6OFGHbcwDtbwQjw&s" alt="Candidate 5" style="width: 225px; height: 220px; border-radius: 5%; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="margin: 10px 0;">Fatema</p>
+            <p style="margin: 0;">[B.Tech CSE]</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvbHO9X_mFr6KBEhvpzaVwUVt8UVa4hRb9QvtrZSOt&s" alt="Company 5 Logo" style="width: 230px; height: 50px; margin-top: 10px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="text-transform: uppercase; font-weight: bold; margin: 10px 0; color: #002147;font-size: larger;">CTC ₹7.50 LPA</p>
+        </div>
+        <!-- Card 5 -->
+        <div class="card" style="background-color: #D3DFDB; width: 250px; border-radius: 10px; padding: 10px; text-align: center; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT978iG9RW1QJKTX2badziXjrf1c2uH6ztkBFXQXVZdqg&s" alt="Candidate 5" style="width: 225px; height: 220px; border-radius: 5%; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="margin: 10px 0;">Twinkle</p>
+            <p style="margin: 0;">[B.Tech ECE]</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsZ5sZ_aHKzW8znuvjOr5Ngg3jRfxDZSrDuGGb1UFX&s" alt="Company 5 Logo" style="width: 230px; height: 50px; margin-top: 10px; box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);">
+            <p style="text-transform: uppercase; font-weight: bold; margin: 10px 0; color: #002147; font-size: larger;">CTC ₹7.50 LPA</p>
+        </div>
+    </div>
+</section>
+
+<!--12th section-->
+    
+
+<!--13 th section MOU's & Recognition-->
+<div class="container">
+    <!-- Section with a centered box and text -->
+    <h1 style="padding: 50px 0px 20px 0px; color: #0e2c65; font-weight: bold; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);">MOU's & Recognitions</h1>
+
+    <!-- Company logo carousel (have external css in style.css) -->
+    <div class="slider" style="height: 100px; margin: auto; overflow: hidden; position: relative; width: auto;">
+        <div class="slide-track" style="animation: scroll2 40s linear infinite; display: flex; width: calc(250px * 14);">
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://vignan.ac.in/blog/images/nov/nirf-img1.png" height="100" width="150" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://miro.medium.com/v2/resize:fit:800/1*I3EDn0iRz4h0FxE4IMYxMw.png" height="100" width="160" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQW5YS_o1HK_LEpGOlS3-Joa9as4FCnpbRNHL0aP8_PyA&s" height="100" width="100" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRE59fQHrSt_svpKAasEAxUa-CQG1Aeqi2sCmFfmmpARUg74Zlpx2TQDQyLIlN6ePf5R58&usqp=CAU" height="100" width="100" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRht0E7f4BEHbEbBNsQGSrZsMM_wDaBE3uoHjC0TptPg&s" height="100" width="100" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://www.ideosphereconsulting.com/wp-content/uploads/2020/04/Symbiosis.png" height="100" width="100" alt="" />
+          </div>
+          <div class="slide" style="height: 100px; width: 250px;">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOpr5qU3WJPjmQn2X6zlvA5Wu1IZBfjZj6U4vNN1Zcw&s" height="100" width="100" alt="" />
+          </div>
+        </div>
+    </div>      
+    <!-- Company logo carousel end here (have external css in style.css) --> 
+</div>
+<!--13 th section MOU's & Recognition ends here-->
+
+<!--Footer Section-->
+<footer style="background-color: #000F20; color: #ffffff; padding: 30px 5px; overflow: hidden;">
+    <div style="width: 24%; float: left; padding: 25px 70px; background-color: #000F20;">
+        <h1 style="font-size: 24px; margin-bottom: 20px; font-weight: bold;">SOMETHING<br>UNIVERSITY</h1>
+        <br>
+        <h2 style="color: #1DB3E9; font-size: medium; font-weight: bold;">Follow Us:</h2>
+        <div class="social-icons" style="background-color: #000F20;">
+            <a href="#"><i class="fab fa-facebook-f" style="color: #ffffff; margin-right: 10px;"></i></a>
+            <a href="#"><i class="fab fa-twitter" style="color: #ffffff; margin-right: 10px;"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: #ffffff; margin-right: 10px;"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in" style="color: #ffffff; margin-right: 10px;"></i></a>
+        </div>
+        <br>
+        <p style="font-size: 14px; margin-top: 20px;">&copy; 2024 <br>Something University <br> All Rights Reserved.</p>
+    </div>
+
+    <div style="width: 0.10%; float: left; padding: 158px 1px; color: white; background-color: white;">
+        <div style="height: 100%; border-left: 2px dotted rgba(255, 255, 255, 0.5);"></div>
+    </div>
+
+    <div style="width: 33.33%; float: left; padding: 15px 20px; background-color: #002147;">
+        <h2 style="color: white; margin-bottom: 23px;">Contact Us</h2>
+        <p><i class="fas fa-map-marker-alt"></i> &nbsp&nbsp Dharmaram College Post, Hosur Road, Bengaluru - 560029, Karnataka, India</p>
+        <p><i class="fas fa-phone"></i>&nbsp&nbsp +91 7278936250</p>
+        <p><i class="fas fa-fax"></i>&nbsp&nbsp 40129000</p>
+        <p><i class="fas fa-envelope"></i>&nbsp&nbsp Email: example@example.com</p>
+        <p><i class="fas fa-globe"></i>&nbsp&nbsp Website: www.example.com</p>
+    </div>
+
+    <div style="width: 33.33%; float: left; padding: 15px 20px; color: #ffffff; background-color: #002147;">
+        <h2 style="color: white; padding-top: 4px; margin-bottom: 15px;">Quick Links</h2>
+        <div style="background-color: #002147; color: #ffffff; padding: 10px 0; border-radius: 5px; overflow-y: auto;">
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">UBA</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">FCRA</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Alumni</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">IQAC</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Carrers</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Library</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Centres</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Research</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Admission</a>
+            <a href="#" style="display: inline-block; background-color: #002147; color: #ffffff; padding: 8px 20px; margin-right: 10px; margin-bottom: 10px; border: 1px solid #1DB3E9; border-radius: 20px; text-decoration: none;">Course Index</a>
+        </div>
+    </div>
+</footer>
+<!--Footer Section-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    
+
+    <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!--Jquery responsible for front page slider -->    
+        <script>
+            $(document).ready(function(){
+                // Activate carousel
+                $('#carouselExampleIndicators').carousel();
+    
+                // Set interval for automatic sliding
+                setInterval(function(){
+                    $('#carouselExampleIndicators').carousel('next');
+                }, 3000); // Change slide every 3 seconds
+            });
+        </script>  
+    <!--Jquery responsible for front page slider ends here -->      
+</body>
+</html>

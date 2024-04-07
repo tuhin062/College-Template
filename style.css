@@ -1,0 +1,13 @@
+/*10th section external css here */
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 7)); }
+}
+/*10th section external css ends here */
+
+/*12th section external css here */
+@keyframes scroll2 {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(calc(-250px * 7)); }
+}
+/*1th section external css ends here */
